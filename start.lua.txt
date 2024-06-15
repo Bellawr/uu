@@ -872,7 +872,7 @@ else
 datar[k] = {{text =v,data ="DoOrDel_"..ub.."_"..v},{text ="معطل",data ="DoOrDel_"..ub.."_"..v}}
 end
 end
-datar[#json.plugins_ +1] = {{text = "‹ مطور السورس ›",url ="https://t.me/SSSSBS "}}
+datar[#json.plugins_ +1] = {{text = "‹ مطور السورس ›",url ="https://t.me/ SSSSBS"}}
 end
 return datar
 end
@@ -4959,7 +4959,7 @@ ban = ' '..UserInfo.first_name..' '
 u = ''..UserInfo.username..''
 else
 t = '['..UserInfo.first_name..'](tg://user?id='..UserInfo.id..')'
-u = 'SSSSBS '
+u = 'SSSSBS'
 end
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
@@ -8251,7 +8251,7 @@ name = string.gsub(name,"🧜‍♂","🧜‍♀🧜‍♀🧜‍♀🧜‍♀�
 name = string.gsub(name,"🧝‍♂","🧝‍♀🧝‍♀🧝‍♀🧝‍♀🧝‍♀🧝‍♂🧝‍♀🧝‍♀🧝‍♀")
 name = string.gsub(name,"🙍‍♂️","🙎‍♂️🙎‍♂️🙎‍♂️🙎‍♂️🙎‍♂️🙍‍♂️🙎‍♂️🙎‍♂️🙎‍♂️")
 name = string.gsub(name,"🧖‍♂️","🧖‍♀️🧖‍♀️🧖‍♀️🧖‍♀️🧖‍♀️🧖‍♂️🧖‍♀️🧖‍♀️🧖‍♀️🧖‍♀️")
-name = string.gsub(name,"👬","👭👭👭👭👭👬👭👭👭")
+name = string.gsub(name,"👬","👭👭👭👭👭??👭👭👭")
 name = string.gsub(name,"👨‍👨‍👧","👨‍👨‍👦👨‍👨‍??👨‍👨‍👦👨‍👨‍👦👨‍👨‍👧👨‍👨‍👦👨‍👨‍👦")
 name = string.gsub(name,"??","🕒🕒🕒🕒🕒🕒🕓🕒🕒🕒")
 name = string.gsub(name,"🕤","🕥🕥🕥🕥🕥🕤🕥🕥🕥")
@@ -14947,7 +14947,7 @@ bot.sendText(msg.chat_id,msg.id,"*- الاسم : *( "..(t).." *)*\n*- المعر
 end
 end
 if text == 'مبرمج السورس' or text == 'coder' or text == 'المبرمج' then
-local UserId_Info = bot.searchPublicChat("SSSSBS ")
+local UserId_Info = bot.searchPublicChat("SSSSBS")
 if UserId_Info.id then
 local UserInfo = bot.getUser(UserId_Info.id)
 if UserInfo.username and UserInfo.username ~= "" then
@@ -14975,7 +14975,7 @@ end
 end
 end
 if text == 'مطور السورس' then
-local UserId_Info = bot.searchPublicChat("SSSSBS ")
+local UserId_Info = bot.searchPublicChat("SSSSBS")
 if UserId_Info.id then
 local UserInfo = bot.getUser(UserId_Info.id)
 if UserInfo.username and UserInfo.username ~= "" then
@@ -23770,7 +23770,7 @@ local Text = "*- welcome to the ᴀʟ- Bella sᴏᴜʀᴄᴇ .*\n"
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = '- Bella 𝘴𝘰𝘶𝘳𝘤𝘦 .',url="https://t.me/EE28i"}},
-{{text = '- CoDeR .',url="https://t.me/SSSSBS "}},
+{{text = '- CoDeR .',url="https://t.me/SSSSBS"}},
 }
 https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg.chat_id .. "&photo=https://t.me/EE28i&caption=".. URL.escape(Text).."&photo=0&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
